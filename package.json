@@ -1,0 +1,26 @@
+{
+  "name": "node-helipay",
+  "version": "1.0.0",
+  "description": "合利宝支付 for nodejs",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beclass/node-helipay.git"
+  },
+  "keywords": [
+    "合利宝",
+    "nodejs"
+  ],
+  "author": "lwp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beclass/node-helipay/issues"
+  },
+  "homepage": "https://github.com/beclass/node-helipay#readme",
+  "dependencies": {
+    "urllib": "^2.33.0"
+  }
+}
