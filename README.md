@@ -26,10 +26,10 @@ nodejs >= 8.3.0
 
 ## 安装
 ```Bash
-npm i helipay
+npm i node-helipay
 
 # 如已安装旧版, 重新安装最新版
-npm i helipay@latest
+npm i node-helipay@latest
 ```
 
 ## 实例化

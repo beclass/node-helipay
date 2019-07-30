@@ -1,6 +1,6 @@
 {
   "name": "node-helipay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "合利宝支付 for nodejs",
   "main": "./lib",
   "scripts": {
