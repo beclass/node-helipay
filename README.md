@@ -62,17 +62,20 @@ const api = new helipay(config, true);
 - 签名(sign)会在调用API时自动处理, 无需手动传入
 
 
-### domesticPayScan: 境内扫码收单(自动下单, 返回支付二维码)
+### domesticPay: 境内收单(自动下单，返回结果)
 ```javascript
-let result = await api.domesticPayScan({
+let result = await api.domesticPay({
   productCode: '产品编码，ALIPAYSCAN/WXPAYSCAN',
   orderNo: '商户内部订单号',
   orderAmount: '订单金额',
   goodsName: '商品简单描述',
   aes_key:'商户该产品编码对应的aeskey',
   sha256_key:'商户该产品编码对应的sha256'
-});
-```
+},'appScan');
+
+第二个参数为类别：appScan(扫码下单)，wxApp(微信小程序)
+
+
 ##### 更多api未完待续...
 
 

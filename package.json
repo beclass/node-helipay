@@ -1,6 +1,6 @@
 {
   "name": "node-helipay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "合利宝支付 for nodejs",
   "main": "./lib",
   "scripts": {
@@ -12,6 +12,9 @@
   },
   "keywords": [
     "合利宝",
+    "跨境支付",
+    "跨境汇款",
+    "报关查询",
     "nodejs"
   ],
   "author": "lwp",
