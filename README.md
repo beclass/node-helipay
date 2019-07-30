@@ -45,7 +45,7 @@ const api = new helipay(config);
 
 // 调试模式(传入第二个参数为true, 可在控制台输出数据)
 const api = new helipay(config, true);
-
+```
 
 #### config说明:
 - `merchant_no` - 商户编号(必填)
@@ -74,7 +74,7 @@ let result = await api.domesticPay({
 },'appScan');
 
 第二个参数为类别：appScan(扫码下单)，wxApp(微信小程序)
-
+```
 
 ##### 更多api未完待续...
 
